@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OC Automation Regression" parallel="tests" thread-count="2">
+	<!-- to run parallel with 2 parallel threads parallel="tests" thread-count="2" -->
+	<!-- Test -->
+	<listeners>
+		<listener
+			class-name="com.qa.ecommerce.testlisteners.TestAllureListener" />
+	</listeners>
+	<test name="LoginPage Test">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.ecommerce.tests.LoginPageTest" />
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="AccountPage Test">
+	<!-- Parameter tag is used to send browser value to basetest case so that specific browser will launch for
+	cross browser testing -->
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.ecommerce.tests.AccountPageTest" />
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="Registration Test">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.ecommerce.tests.RegistrationPageTest" />
+		</classes>
+	</test>
+</suite>
