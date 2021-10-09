@@ -1,9 +1,0 @@
-package com.qa.ecommerce.tests;
-
-public class JT {
-	
-	public JT() {
-		System.out.println("jaggu...");
-	}
-
-}

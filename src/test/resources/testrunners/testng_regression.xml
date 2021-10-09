@@ -23,11 +23,11 @@
 			<class name="com.qa.ecommerce.tests.AccountPageTest" />
 		</classes>
 	</test>
-	<!-- Test -->
-	<test name="Registration Test">
-	<parameter name="browser" value="firefox"></parameter>
-		<classes>
-			<class name="com.qa.ecommerce.tests.RegistrationPageTest" />
-		</classes>
-	</test>
+	<!--Test -->
+	<!-- <test name="Registration Test"> -->
+	<!-- <parameter name="browser" value="firefox"></parameter> -->
+		<!--<classes>  -->
+			<!-- <class name="com.qa.ecommerce.tests.RegistrationPageTest" /> -->
+		<!-- </classes> -->
+	<!--</test>  -->
 </suite>
