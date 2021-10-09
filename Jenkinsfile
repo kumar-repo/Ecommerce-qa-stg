@@ -10,7 +10,7 @@ pipeline {
           steps {
             catchError(buildResult:'SUCCESS', stageResult:'FAILURE')
             {
-			bat "mvn clean install"
+			bat "mvn test -e"
           }
         }
 	}
