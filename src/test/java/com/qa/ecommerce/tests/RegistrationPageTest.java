@@ -23,7 +23,10 @@ public void registrationPageSetUp() {
 	}
 	
 @Test(dataProvider="getRegistrationData")
-public void userRegistrationPageTest(String firstname, String lastname, String email, String telephone, String password,String subscribe) {
+public void userRegistrationPageTest(String firstname, String lastname, String email, String telephone, 
+		String password,String subscribe) 
+{
+	System.out.println("Started registration......................");
 	registrationPage.accountRegistration( firstname,  lastname, email, telephone, password, subscribe);
 }
 	
