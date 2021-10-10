@@ -24,10 +24,10 @@
 		</classes>
 	</test>
 	<!--Test -->
-	<!-- <test name="Registration Test"> -->
-	<!-- <parameter name="browser" value="firefox"></parameter> -->
-		<!--<classes>  -->
-			<!-- <class name="com.qa.ecommerce.tests.RegistrationPageTest" /> -->
-		<!-- </classes> -->
-	<!--</test>  -->
+	<test name="Registration Test"> 
+	<parameter name="browser" value="firefox"></parameter> 
+		<classes> 
+			<class name="com.qa.ecommerce.tests.RegistrationPageTest" /> 
+		</classes>
+	</test> 
 </suite>
